@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Interface Segregation Principle\InterfaceSegregation.Implementation.Refactor\InterfaceSegregation.Implementation.Refactor.csproj" />
+    <ProjectReference Include="..\InterfaceSegregation.Implementation.Refactor\InterfaceSegregation.Implementation.Refactor.csproj" />
   </ItemGroup>
 
 </Project>
