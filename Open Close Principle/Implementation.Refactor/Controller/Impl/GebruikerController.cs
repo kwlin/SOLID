@@ -15,11 +15,6 @@ namespace OpenClose.Implementation.Refactor.Controller.Impl
 
         public long AddGebruiker(Gebruiker gebruiker)
         {
-            if (Thread.CurrentPrincipal.Identity.IsAuthenticated)
-            {
-                throw new SecurityException("Niet de juiste geauthenticeerd");
-            }
-
             #region awesome business code (uiteindelijke functionaliteit)
             return default(long);
             #endregion

@@ -12,7 +12,9 @@ namespace OpenClose.Client.Refactor
             // Decorator pattern
             var gebruikerController = 
                 new LoggingGebruikerController(new Logger(),
-                    new GebruikerController());
+                    new AuthenticatedGebruikerController(
+                        new GebruikerController()
+                ));
 
             gebruikerController.AddGebruiker(new Gebruiker());
         }
